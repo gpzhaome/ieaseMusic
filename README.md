@@ -80,6 +80,19 @@ or
 $ pacman -S iease-music-git
 ```
 
+#### Windows
+[Download](https://gitforwindows.org/) and install git for windows. 
+[Download](https://www.npmjs.com/get-npm) and install npm. 
+Run Git Bash, and git clone this repo. 
+```
+git clone https://github.com/gpzhaome/ieaseMusic.git
+git submodule init
+git submodule update --remote --merge
+npm install
+npm run package-win  # generate exe file
+```
+The generated exe file is in the release folder. 
+
 ## Screenshots
 
 ![Home](https://github.com/trazyn/ieaseMusic/blob/dev/screenshots/home.png?raw=true)
